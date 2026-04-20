@@ -1,7 +1,7 @@
 # Template file for 'wxMaxima'
 pkgname=wxMaxima
-version=20.02.4
-revision=2
+version=26.01.0
+revision=1
 build_style=cmake
 configure_args="-DwxWidgets_CONFIG_EXECUTABLE=/usr/bin/wx-config-gtk3"
 hostmakedepends="gettext perl desktop-file-utils doxygen po4a"
@@ -12,7 +12,7 @@ maintainer="Martin Riese <grauehaare@gmx.de>"
 license="GPL-2.0-or-later"
 homepage="https://wxmaxima-developers.github.io/wxmaxima/"
 distfiles="https://github.com/wxMaxima-developers/wxmaxima/archive/Version-${version}.tar.gz"
-checksum=d47ca52e40491ea3c4ea7bea126f4da4d0b535702126abef0c172f69ba58e17d
+checksum=1716c4f27636f909673f63ed0c7c30621683e35eb7bf05a5d5010fa67f0397f6
 nocross="clisp is nocross"
 
 CXXFLAGS="-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64"
