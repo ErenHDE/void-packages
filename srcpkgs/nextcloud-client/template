@@ -1,11 +1,11 @@
 # Template file for 'nextcloud-client'
 pkgname=nextcloud-client
-version=4.0.8
+version=33.0.4
 revision=1
 build_style=cmake
 configure_args="-DBUILD_UPDATER=NO -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
 hostmakedepends="pkg-config inkscape extra-cmake-modules
- qt6-base qt6-tools kf6-kconfig"
+ qt6-base qt6-tools kf6-kconfig KDSingleApplication"
 makedepends="qt6-base-devel qt6-declarative-devel qt6-qt5compat-devel
  qt6-svg-devel qt6-websockets-devel qt6-plugin-sqlite
  kf6-kio-devel kf6-karchive-devel kf6-kguiaddons-devel qtkeychain-qt6-devel
@@ -19,7 +19,7 @@ license="GPL-2.0-or-later"
 homepage="https://nextcloud.com/clients/"
 changelog="https://github.com/nextcloud/desktop/releases"
 distfiles="https://github.com/nextcloud/desktop/archive/v${version}.tar.gz"
-checksum=e678729f65ce33491c56addb255ad8c07485be738a44279a04b8772b5a123fb7
+checksum=d450ed9d334dfcef21dedc11678562d0abb0fa808ac65c550a755bd6f3a5ce9f
 # https://github.com/void-linux/void-packages/pull/33358#discussion_r724518549
 make_check=ci-skip
 replaces="nextcloud-client-kwallet>=0 nextcloud-client-dolphin>=0"
