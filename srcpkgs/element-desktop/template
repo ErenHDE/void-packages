@@ -36,8 +36,6 @@ pre_build() {
 }
 
 do_build() {
-	export NODE_OPTIONS=--openssl-legacy-provider
-
 	cd element-web/apps/web
 	VERSION=${version} pnpm run build
 
