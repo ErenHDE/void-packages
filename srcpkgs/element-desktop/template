@@ -1,6 +1,6 @@
 # Template file for 'element-desktop'
 pkgname=element-desktop
-version=1.12.21
+version=1.12.22
 revision=1
 _electronver=35
 create_wrksrc=yes
@@ -18,7 +18,7 @@ license="Apache-2.0"
 homepage="https://element.io"
 changelog="https://raw.githubusercontent.com/element-hq/element-desktop/develop/CHANGELOG.md"
 distfiles="https://github.com/element-hq/element-web/archive/v${version}.tar.gz>element-web-v${version}.tar.gz"
-checksum="bbf87817f7f60ee034e58acba1f937954137f0fbc4527885ae38851f3757512c"
+checksum="b062c513ea64da5d4448a51640e599da6944fd4f41df5530aebb64377ed116dd"
 replaces="riot-desktop>=0"
 
 export USE_SYSTEM_APP_BUILDER=true

@@ -1,6 +1,6 @@
 --- /element-web/package.json
 +++ /element-web/package.json
-@@ -49,12 +49,5 @@
+@@ -52,13 +52,6 @@
      "engines": {
          "node": ">=22.18"
      },
@@ -11,5 +11,6 @@
 -            "onFail": "error"
 -        }
 -    },
-     "private": true
+     "private": true,
+     "nx": {}
  }
