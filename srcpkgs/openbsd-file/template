@@ -1,7 +1,7 @@
 # Template file for 'openbsd-file'
 pkgname=openbsd-file
-version=6.2
-revision=4
+version=7.6
+revision=1
 build_style=gnu-configure
 configure_args="--program-prefix=openbsd-"
 hostmakedepends="automake libtool"
@@ -10,7 +10,7 @@ maintainer="Juan RP <xtraeme@gmail.com>"
 license="ISC"
 homepage="https://github.com/brynet/file/"
 distfiles="https://github.com/brynet/file/archive/v${version}.tar.gz"
-checksum=f6bf601f513bd83038e343bbd93b7982f373669a2ffa76dc52d48fa7251515b2
+checksum=35e503a21a778dc3d9cc71d5ac3100b59e5500955749f4b7b2cf10617ce7a140
 
 system_accounts="_file"
 
