@@ -1,0 +1,14 @@
+# Template file for 'riftbar'
+pkgname=riftbar
+version=0.2.5
+revision=1
+build_style=cargo
+hostmakedepends="pkg-config"
+makedepends="glib-devel gdk-pixbuf-devel gtk4-devel
+ gtk4-layer-shell-devel"
+short_desc="Highly customizable GTK4 bar for Wayland written in Rust"
+maintainer="ErenHDE <erenozturkhde@gmail.com>"
+license="GPL-3.0-or-later"
+homepage="https://codeberg.org/BinaryHarbinger/riftbar"
+distfiles="https://codeberg.org/BinaryHarbinger/riftbar/archive/v${version}.tar.gz"
+checksum=ccfd2334c9ae49c6f8a3a3eef150123e21446f8e884fbbfb445da434a22a94de
