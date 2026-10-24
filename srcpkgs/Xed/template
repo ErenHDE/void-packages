@@ -1,0 +1,15 @@
+# Template file for 'Xed'
+pkgname=Xed
+version=3.9.0
+revision=1
+build_style=meson
+hostmakedepends="pkg-config intltool itstool gobject-introspection glib-devel"
+makedepends="libxml2-devel glib-devel gtk+3-devel gtksourceview4-devel
+ libpeas-devel xapp-devel python3-gobject-devel gspell-devel"
+short_desc="Small and lightweight text editor"
+maintainer="ErenHDE <erenozturkhde@gmail.com>"
+license="GPL-2.0-or-later"
+homepage="https://github.com/linuxmint/xed"
+distfiles="https://github.com/linuxmint/xed/archive/${version}.tar.gz"
+checksum=8c1e685b8506eda2bdae022382f73ae1217a1e1549277f8482b58a2cdb7f5033
+make_check=no
