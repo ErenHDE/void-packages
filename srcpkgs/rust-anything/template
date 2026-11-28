@@ -1,0 +1,17 @@
+# Template file for 'rust-anything'
+pkgname=rust-anything
+version=5.0.2
+revision=1
+build_style=cargo
+checkdepends="python3-devel nodejs procps-ng"
+short_desc="Behavior-verified incremental Rust migration tool"
+maintainer="ErenHDE <erenozturkhde@gmail.com>"
+license="MIT"
+homepage="https://github.com/erkamyaman/rust-anything"
+changelog="https://raw.githubusercontent.com/erkamyaman/rust-anything/refs/heads/main/CHANGELOG.md"
+distfiles="https://github.com/erkamyaman/rust-anything/archive/v${version}.tar.gz"
+checksum=3eb7195a5cea50d6968e0ff7231989714cb73f686608f60dfb5151f87c361891
+
+do_install() {
+	vlicense LICENSE-MIT
+}
